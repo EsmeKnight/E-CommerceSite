@@ -1,0 +1,128 @@
+.page-container {
+  display: flex;
+  z-index: 999;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.page-top {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.page-title {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #690808;
+  text-transform: capitalize;
+}
+
+.result-count-container {
+  position: relative;
+}
+
+.result-count {
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 0;
+  color: #6e6e6e;
+  min-width: 10rem;
+}
+
+.sidebar-container {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  /* position: -webkit-sticky; */
+  position: sticky;
+  top: 0;
+}
+
+.shoe-thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.shoe-thumbnail {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  max-width: 300px;
+}
+
+.name-price-container {
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+.shoe-link {
+  justify-self: left;
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #911a1a;
+}
+
+.shoe-price {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #911a1a;
+}
+
+.shoe-brand {
+  text-decoration: none;
+  color: #911a1a;
+  text-transform: capitalize;
+}
+
+.image-container {
+  position: relative;
+}
+
+.flag-container {
+  justify-content: right;
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  font-size: 1.5rem;
+  text-align: right;
+  right: 0;
+}
+
+.flag {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 0.25rem;
+  background: #690808;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.flag.inactive {
+  display: none;
+}
+
+.show-more-button-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.show-more-button {
+  min-width: 10rem;
+}
+
+@media screen and (max-width: 1013px) {
+  .shoe-thumbnails {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .sidebar-container {
+    display: none;
+  }
+}

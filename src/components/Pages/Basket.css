@@ -1,0 +1,211 @@
+.basket-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1240px;
+  min-width: 988px;
+  margin: auto;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.basket-title {
+  font-size: 3rem;
+  margin-left: 2rem;
+}
+
+.basket-container {
+  display: flex;
+  min-width: 960px;
+  max-width: 960px;
+  margin: auto;
+  margin-top: 1rem;
+}
+.basket-shoes-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.basket-shoe {
+  display: flex;
+}
+
+.basket-image-container {
+  margin-left: 1rem;
+}
+
+.shoe-details-container {
+  display: flex;
+  min-width: 22rem;
+  max-width: 25rem;
+  margin-left: 1rem;
+  justify-content: space-between;
+  text-transform: capitalize;
+  position: relative;
+}
+.basket-shoe-name {
+  font-size: 1.5rem;
+}
+
+.shoe-price-number {
+  text-align: right;
+  margin-right: 1rem;
+}
+.basket-shoe-price {
+  font-size: 1.5rem;
+}
+.basket-shoe-number {
+  font-size: 1.25rem;
+}
+
+.basket-shoe-brand {
+  font-size: 1.25rem;
+}
+
+/* .basket-shoe-size {
+  position: absolute;
+  bottom: 0;
+} */
+
+.increase-decrease-num-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* .checkout-container {
+  justify-content: center;
+  min-width: 200px;
+  margin-left: auto;
+  margin-right: 1rem;
+} */
+
+.checkout {
+  display: flex;
+  flex-direction: column;
+  /* margin-right: 1rem; */
+  /* justify-content: center; */
+}
+
+.checkout-inactive {
+  display: none;
+}
+
+.checkout-price {
+  font-size: 1.5rem;
+  min-height: 2.5rem;
+  border-bottom-style: solid;
+  border-width: 1px;
+  margin-bottom: 1rem;
+  text-align: end;
+}
+
+.checkout-voucher-input {
+  display: flex;
+  min-height: 2rem;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+}
+
+.checkout-voucher-input::placeholder {
+  color: grey;
+}
+
+.checkout-input-container {
+  display: flex;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+span {
+  display: block;
+  /* overflow: hidden; */
+  /* padding-right: 5px; */
+  /* padding-left: 10px; */
+}
+span > input {
+  width: 100%;
+}
+
+.email-input {
+  width: 100%;
+  min-height: 1.9rem;
+  border-radius: 0.2rem;
+  border-width: 1px;
+}
+
+.email-input::placeholder {
+  color: grey;
+}
+
+.voucher-input {
+  width: 100%;
+  min-height: 1.9rem;
+  border-radius: 0.2rem;
+  border-width: 1px;
+}
+
+.voucher-input::placeholder {
+  color: grey;
+}
+
+.checkout-button {
+  min-height: 2rem;
+}
+
+/* .payment-methods {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment-method-img {
+  width: 25%;
+} */
+
+@media screen and (max-width: 987px) {
+  .basket-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-width: fit-content;
+    margin: auto;
+    margin-top: 1rem;
+    justify-content: center;
+  }
+  .basket-container {
+    flex-direction: column;
+    margin: auto;
+    margin-top: 1rem;
+    min-width: fit-content;
+    justify-content: center;
+  }
+
+  /* .basket-shoe { */
+  /* justify-content: space-between; */
+  /* margin: auto; */
+  /* } */
+  .shoe-details-container {
+    display: flex;
+    flex-direction: column;
+    min-width: fit-content;
+    justify-content: left;
+
+    text-transform: capitalize;
+  }
+  .shoe-price-number {
+    text-align: left;
+    /* justify-self: end; */
+  }
+  .increase-decrease-num-container {
+    max-width: 4rem;
+    justify-content: space-between;
+  }
+  .checkout-container {
+    justify-content: center;
+  }
+
+  .checkout-voucher-input {
+    display: flex;
+    min-height: 2rem;
+    margin-bottom: 1rem;
+  }
+}

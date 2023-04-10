@@ -1,0 +1,27 @@
+.prev-arrow {
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-size: 5rem;
+  opacity: 0.5;
+  z-index: 1;
+  cursor: pointer;
+  left: 32px;
+}
+
+.next-arrow {
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-size: 5rem;
+  opacity: 0.5;
+  z-index: 1;
+  cursor: pointer;
+  right: 32px;
+}
+
+.hide-hover {
+  display: none;
+}

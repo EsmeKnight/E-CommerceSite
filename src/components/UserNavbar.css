@@ -1,0 +1,103 @@
+.usernav-background {
+  background: #b1b1b1;
+}
+
+.usernav {
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.usernavbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.usernav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+  justify-content: start;
+}
+
+.usernav-item {
+  display: flex;
+}
+
+.usernav-link-desktop {
+  display: flex;
+  padding: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+}
+.usernav-link-desktop:hover {
+  color: #910a0a;
+}
+.usernav-link-mobile {
+  display: none;
+}
+
+.icon {
+  margin-top: 0.25rem;
+  margin-right: 10px;
+}
+
+.basket-icon-container {
+  position: relative;
+}
+.basket-count {
+  position: absolute;
+  justify-content: right;
+  background-color: #910a0a;
+  font-size: 0.65rem;
+  text-align: center;
+  top: 0;
+  right: 0;
+  border-radius: 1rem;
+  min-width: 0.95rem;
+  min-height: 0.7rem;
+  max-height: 0.7rem;
+  padding-bottom: 0.25rem;
+}
+.basket-empty {
+  display: none;
+}
+
+@media screen and (max-width: 987px) {
+  .usernav-link-mobile {
+    display: flex;
+    padding: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+  }
+  .usernav-link-desktop {
+    display: none;
+  }
+
+  .basket-count {
+    position: absolute;
+    justify-content: right;
+    background-color: #910a0a;
+    font-size: 0.65rem;
+    text-align: center;
+    top: 19px;
+    right: 22px;
+    border-radius: 1rem;
+    min-width: 0.95rem;
+    min-height: 0.7rem;
+    max-height: 0.7rem;
+    padding-bottom: 0.25rem;
+  }
+}

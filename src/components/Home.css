@@ -1,0 +1,14 @@
+.main {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.carosel-container {
+  width: 100%;
+  height: 750px;
+}
+
+.carosel-container:hover {
+  background-color: #b1b1b1;
+  opacity: 50%;
+}

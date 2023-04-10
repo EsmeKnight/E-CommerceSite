@@ -1,0 +1,26 @@
+.footer-bar-background {
+  background: #b1b1b1;
+}
+
+.footer-bar {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  max-width: 1300px;
+  margin: auto;
+  color: #ffffff;
+}
+
+.footer-content {
+  display: flex;
+}
+
+.copyright {
+  margin-right: 5px;
+  margin-top: 1px;
+}

@@ -1,0 +1,18 @@
+.carosel-hover {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  text-align: right;
+}
+
+.offer-header {
+  font-size: 3rem;
+  color: #910a0a;
+  margin: 1rem;
+}
+
+.offer-description {
+  font-size: 2rem;
+  color: #910a0a;
+  margin: 1rem;
+}
